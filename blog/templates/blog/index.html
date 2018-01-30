@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="publisher" href="https://plus.google.com/u/1/116881875920799118774">
+	<meta name="keywords" content="Ricardo Geek,博客， 技术经验，常用小工具">
+    <meta name="description" content="Ricardo Geek's Programming Road | Ricardo的编程之旅 | Ricardo常用的小工具 | Ricardo的图片文字识别 | Ricardo的在线图片压缩">
+    <meta name="author" content="Ricardo Geek">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+
+    <title>Ricardo's Road to conquer CoDe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../..//static/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+		<style>
+			.logo>a {
+					display: inline;
+			}
+			.logo {
+					margin-bottom: 30%;
+			}
+
+			svg {
+			  width: 100%;
+			  height: 100%;
+			}
+			.option {
+				z-index: 100;
+			}
+			.svg {
+				height: 200px;
+				width: 200px;
+				margin-top: 30px;
+				padding: 35px;
+			}
+			path {
+			  stroke: #999999;
+			  stroke-linecap:round;
+			  stroke-width: 42;
+			  fill:none;
+			}
+			#sec {
+			  stroke: #ff3300;
+			  stroke-width: 20;
+			}
+			#min {
+			  stroke: #3366cc;
+			  stroke-width: 38;
+			}
+			#hour {
+			  stroke: #804000;
+			  stroke-width: 38;
+			}
+			.footer {
+				display: block;
+				position: absolute;
+				bottom: 1%;
+				width: 100%;
+				text-align: center;
+				font-size: 14px;
+				color: #4d4d33;
+				font-family: tahoma;
+			}
+		</style>
+		<script type="application/javascript">
+
+		</script>
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo">
+				{% if userinfo == None or userinfo == '' %}
+				<a href="login">Login</a> <a href="signup">SignUP</a>
+				{% else %}
+				<!--script>alert('login success.');</script-->
+				<a href='#'>hi,{{ userinfo.username }}</a>
+				{% endif %}
+			</h1>
+			<i class="fa fa-times menu-close"></i>
+			<div class="option">
+				<a href="#home" class="smoothScroll">Home</a>
+				<a href="/articles" class="smoothScroll">Articles</a>
+				<a href="/tools" class="smoothScroll">Tools</a>
+				<a href="/about" class="smoothScroll">About</a>
+				<a href="#contact" class="smoothScroll">Contact</a>
+				<!-- <a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-envelope"></i></a> -->
+			</div>
+			<div class="svg">
+				<svg height="120px" width="120px" viewBox="0 0 1000 1000">
+
+				<path d="M978,500c0,263.99-214.01,478-478,478s-478-214.01-478-478,214.01-478,478-478,478,214.01,478,478zm-888.93,237.25,20.179-11.65m779.16-449.85l22.517-13m-648.18,648.18,11.65-20.18m449.85-779.16l13-22.517m-711.75,410.93h23.305m899.7,0h26m-885.43-237.25,20.179,11.65m779.16,449.85,22.517,13m-648.18-648.18l11.652,20.183m449.85,779.16,13,22.517m-237.25-885.43v23.305m0,899.7,0,26"/>
+				<path d="M500,500,500,236" id="hour"/>
+				<path d="M500,500,500,120" id="min" />
+				<path d="M500,500,500,90" id="sec" />
+				</svg>
+			</div>		
+			<!-- 时钟div -->
+			<script>
+				setInterval(function() {
+				  function r(el, deg) {
+				    el.setAttribute('transform', 'rotate('+ deg +' 500 500)')
+				  }
+				  var d = new Date()
+				  r(sec, 6*d.getSeconds())
+				  r(min, 6*d.getMinutes())
+				  r(hour, 30*(d.getHours()%12) + d.getMinutes()/2)
+				}, 1000)
+			</script>
+			<!-- 时钟div -->
+			<span class="footer">- CopyRight by Ricardo.</span>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>Ricardo STUDIO</h1>
+				</div>
+			</div><!--/row -->
+		</div><!--/container -->
+	</div><!--/headerwrap -->
+	
+	<section id="about" name="about"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 name">
+						<!-- <img class="img-responsive" src="/static/img/pic.png"> -->
+					<p>Ricardo Geek</p>
+					<div class="name-label"></div>
+				</div><!--/col-lg-4-->
+				<div class="col-lg-8 name-desc">
+					<h2>待描述  <br/><br/>待描述 </h2>
+					<div class="name-zig"></div>
+					
+					<div class="col-md-6">
+						<p>待描述 </p>
+						<p>待描述</p>
+					</div>
+					<div class="col-md-6">
+						<p>待描述</p>
+						<p> 待描述 </p>
+					</div>
+					
+				</div><! --/col-lg-8-->
+		
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<! -- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+	
+	<! -- PORTFOLIO SECTION -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h1>SOME OF MY LATEST WORKS</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port04.jpg"><img class="img-responsive" src="/static/img/portfolio/port04.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port05.jpg"><img class="img-responsive" src="/static/img/portfolio/port05.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port06.jpg"><img class="img-responsive" src="/static/img/portfolio/port06.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+	
+			<div class="row mt">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port01.jpg"><img class="img-responsive" src="/static/img/portfolio/port01.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port02.jpg"><img class="img-responsive" src="/static/img/portfolio/port02.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="/static/img/portfolio/port03.jpg"><img class="img-responsive" src="/static/img/portfolio/port03.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+		</div><! --/container -->
+        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+		<div class="container">
+			<div class="row mt centered">
+				<h1>MY DESIGN PROCESS</h1>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-coffee"></i>
+					<h3>待补充</h3>
+					<p>待描述</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-cogs"></i>
+					<h3>待补充</h3>
+					<p>待描述</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-heart"></i>
+					<h3>待补充t</h3>
+					<p>待描述.</p>
+				</div>
+				
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/Portfoliowrap -->
+
+	<! -- PORTFOLIO SEPARATOR -->
+	<div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>AN OVERVIEW OF MY SERVICES</h1>
+					<h3>I'll do all the work for you</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-star"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-cloud"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-shield"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-heart"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-trophy"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-globe"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-lock"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-thumbs-up"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+	
+	<div id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 mt">
+				
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active mb centered">
+					      <h3>MARK WEBBER</h3>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      <p><img class="img-circle" src="/static/img/pic-t1.jpg" width="80"></p>
+					    </div>
+
+					    <div class="item mb centered">
+					      <h3>PAUL LEVINGSTON</h3>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      <p><img class="img-circle" src="/static/img/pic-t2.jpg" width="80"></p>
+					    </div>
+
+					    <div class="item mb centered">
+					      <h3>LUCY LENNIN</h3>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      <p><img class="img-circle" src="/static/img/pic-t3.jpg" width="80"></p>
+					    </div>
+
+					  </div>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+					</div>
+					  
+				</div><! --/col-lg-8 -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/testimonials -->
+	
+	<! -- SERVICE SECTION -->
+	<section id="contact" name="contact"></section>
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+	
+	<div id="contactwrap">
+		<a name = "contact"></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<p>快来为我打Call吧!</p>
+					<p>下面给我留言哦！</p>
+					<p>
+						<small>×××<br/>
+						341400, GanZhou,<br/>
+						CH.</small>
+					</p>
+					<p>
+						<small>QQ. 1921703278<br/>
+						Mail. GeekRicardozzZ@gmail.com<br/>
+						WeChat. 2198× 
+					</p>
+                    
+			
+				</div>
+				
+				<div class="col-lg-6">
+					<form role="form">
+					  <div class="form-group">
+					    <label for="exampleInputName1">Your Name</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					    <label for="exampleInputText1">Message</label>
+					    <textarea class="form-control" rows="3"></textarea>
+					  </div>
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			
+			</div><! --/row -->
+		</div><!-- /container -->
+	</div>
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <script src="/static/js/jquery.min.js"></script>
+  </body>
+	<script src="/static/js/classie.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/smoothscroll.js"></script>
+	<script src="/static/js/jquery.stellar.min.js"></script>
+	<script src="/static/js/fancybox/jquery.fancybox.js"></script>    
+	<script src="/static/js/main.js"></script>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
+
+  </body>
+</html>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272827947'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272827947%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>

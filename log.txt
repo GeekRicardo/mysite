@@ -1,0 +1,434 @@
+[28/Jan/2018 02:26:42] "GET / HTTP/1.1" 200 17419
+[28/Jan/2018 02:26:42] "GET /static/css/style.css HTTP/1.1" 200 9094
+[28/Jan/2018 02:26:42] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 17780
+[28/Jan/2018 02:26:42] "GET /static/js/fancybox/jquery.fancybox.css HTTP/1.1" 200 4900
+[28/Jan/2018 02:26:42] "GET /static/js/classie.js HTTP/1.1" 200 1656
+[28/Jan/2018 02:26:42] "GET /static/css/bootstrap.css HTTP/1.1" 200 121220
+[28/Jan/2018 02:26:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[28/Jan/2018 02:26:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 96381
+[28/Jan/2018 02:26:42] "GET /static/js/smoothscroll.js HTTP/1.1" 200 4474
+[28/Jan/2018 02:26:42] "GET /static/js/jquery.stellar.min.js HTTP/1.1" 200 12597
+[28/Jan/2018 02:26:42] "GET /static/js/main.js HTTP/1.1" 200 246
+[28/Jan/2018 02:26:43] "GET /static/js/fancybox/jquery.fancybox.js HTTP/1.1" 200 48706
+[28/Jan/2018 02:26:43] "GET /static/img/portfolio/port04.jpg HTTP/1.1" 200 63429
+[28/Jan/2018 02:26:44] "GET /static/img/portfolio/port05.jpg HTTP/1.1" 200 93649
+[28/Jan/2018 02:26:45] "GET /static/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[28/Jan/2018 02:26:46] "GET /static/img/portfolio/port03.jpg HTTP/1.1" 200 87401
+[28/Jan/2018 02:26:46] "GET /static/img/portfolio/port01.jpg HTTP/1.1" 200 100653
+[28/Jan/2018 02:26:48] "GET /static/img/portfolio/port02.jpg HTTP/1.1" 200 136947
+[28/Jan/2018 02:26:48] "GET /static/img/pic-t1.jpg HTTP/1.1" 200 36450
+[28/Jan/2018 02:26:49] "GET /static/img/portfolio/port06.jpg HTTP/1.1" 200 148199
+[28/Jan/2018 02:26:50] "GET /static/img/pic-t2.jpg HTTP/1.1" 200 27307
+[28/Jan/2018 02:26:50] "GET /static/img/pic-t3.jpg HTTP/1.1" 200 43755
+[28/Jan/2018 02:26:50] "GET /static/img/name-label.png HTTP/1.1" 200 12677
+[28/Jan/2018 02:26:51] "GET /static/img/name-zig.png HTTP/1.1" 200 483
+[28/Jan/2018 02:26:56] "GET /static/img/back.jpg HTTP/1.1" 200 315051
+[28/Jan/2018 02:26:58] "GET /static/img/about-sep.jpg HTTP/1.1" 200 307076
+[28/Jan/2018 02:27:00] "GET /static/img/contact-sep.jpg HTTP/1.1" 200 462505
+[28/Jan/2018 02:27:01] "GET /static/img/portfolio-sep.jpg HTTP/1.1" 200 376333
+[28/Jan/2018 02:27:03] "GET /static/favicon.ico HTTP/1.1" 200 9662
+[28/Jan/2018 02:27:45] "GET /static/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[28/Jan/2018 02:37:56] "GET /admin HTTP/1.1" 301 0
+[28/Jan/2018 02:37:56] "GET /admin/ HTTP/1.1" 302 0
+[28/Jan/2018 02:37:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1853
+[28/Jan/2018 02:37:57] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[28/Jan/2018 02:37:57] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[28/Jan/2018 02:37:57] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[28/Jan/2018 02:37:58] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[28/Jan/2018 02:37:58] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[28/Jan/2018 02:37:58] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[28/Jan/2018 02:38:08] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[28/Jan/2018 02:38:09] "GET /admin/ HTTP/1.1" 200 3966
+[28/Jan/2018 02:38:09] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[28/Jan/2018 02:38:09] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[28/Jan/2018 02:38:09] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[28/Jan/2018 02:38:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[28/Jan/2018 02:38:11] "GET /admin/blog/user/ HTTP/1.1" 200 4359
+[28/Jan/2018 02:38:11] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[28/Jan/2018 02:38:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:38:11] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[28/Jan/2018 02:38:11] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[28/Jan/2018 02:38:11] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[28/Jan/2018 02:38:11] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[28/Jan/2018 02:38:11] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[28/Jan/2018 02:38:11] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[28/Jan/2018 02:38:13] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[28/Jan/2018 02:38:13] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[28/Jan/2018 02:38:14] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[28/Jan/2018 02:38:21] "GET /admin/blog/user HTTP/1.1" 301 0
+[28/Jan/2018 02:38:22] "GET /admin/blog/user/ HTTP/1.1" 302 0
+[28/Jan/2018 02:38:23] "GET /admin/login/?next=/admin/blog/user/ HTTP/1.1" 200 1873
+[28/Jan/2018 02:38:56] "GET /admin/login/?next=/admin HTTP/1.1" 200 1851
+[28/Jan/2018 02:38:56] "GET /admin HTTP/1.1" 301 0
+[28/Jan/2018 02:38:56] "GET /admin HTTP/1.1" 301 0
+[28/Jan/2018 02:38:57] "GET /admin/login HTTP/1.1" 301 0
+[28/Jan/2018 02:38:58] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[28/Jan/2018 02:38:58] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[28/Jan/2018 02:39:09] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[28/Jan/2018 02:39:11] "GET /admin/blog/user HTTP/1.1" 301 0
+[28/Jan/2018 02:39:11] "GET /admin/jsi18n HTTP/1.1" 301 0
+[28/Jan/2018 02:39:14] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[28/Jan/2018 02:41:20] "GET /admin HTTP/1.1" 301 0
+[28/Jan/2018 02:41:20] "GET /admin/ HTTP/1.1" 302 0
+[28/Jan/2018 02:41:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1853
+[28/Jan/2018 02:41:36] "GET /admin/jsi18n HTTP/1.1" 301 0
+[28/Jan/2018 02:41:36] "GET /admin/blog/user HTTP/1.1" 301 0
+[28/Jan/2018 02:41:36] "GET /admin/blog/user/ HTTP/1.1" 302 0
+[28/Jan/2018 02:41:37] "GET /admin/jsi18n/ HTTP/1.1" 302 0
+[28/Jan/2018 02:41:37] "GET /admin/login/?next=/admin/blog/user/ HTTP/1.1" 200 1873
+[28/Jan/2018 02:41:38] "GET /admin/login/?next=/admin/jsi18n/ HTTP/1.1" 200 1867
+[28/Jan/2018 02:41:51] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[28/Jan/2018 02:47:14] "GET /admin/blog/user/add/ HTTP/1.1" 200 4512
+[28/Jan/2018 02:47:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:47:14] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[28/Jan/2018 02:47:14] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[28/Jan/2018 02:47:14] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[28/Jan/2018 02:47:14] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[28/Jan/2018 02:47:42] "POST /admin/blog/user/add/ HTTP/1.1" 302 0
+[28/Jan/2018 02:47:42] "GET /admin/blog/user/ HTTP/1.1" 200 4735
+[28/Jan/2018 02:47:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:47:43] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[28/Jan/2018 02:47:53] "GET /admin/blog/ HTTP/1.1" 200 2776
+[28/Jan/2018 02:47:55] "GET /admin/blog/article/ HTTP/1.1" 200 3250
+[28/Jan/2018 02:47:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:48:00] "GET /admin/blog/article/add/ HTTP/1.1" 200 5528
+[28/Jan/2018 02:48:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:48:14] "GET /admin/blog/user/add HTTP/1.1" 301 0
+[28/Jan/2018 02:48:43] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[28/Jan/2018 02:48:53] "GET /admin/blog HTTP/1.1" 301 0
+[28/Jan/2018 02:48:53] "GET /admin/blog HTTP/1.1" 301 0
+[28/Jan/2018 02:48:55] "GET /admin/blog/article HTTP/1.1" 301 0
+[28/Jan/2018 02:48:55] "GET /admin/blog/article HTTP/1.1" 301 0
+[28/Jan/2018 02:49:00] "GET /admin/blog/article/add HTTP/1.1" 301 0
+[28/Jan/2018 02:49:00] "GET /admin/blog/article/add HTTP/1.1" 301 0
+[28/Jan/2018 02:49:34] "GET / HTTP/1.1" 200 17419
+[28/Jan/2018 02:49:34] "GET /static/favicon.ico HTTP/1.1" 200 9662
+[28/Jan/2018 02:49:39] "GET /articles HTTP/1.1" 200 2930
+[28/Jan/2018 02:49:40] "GET /static/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[28/Jan/2018 02:49:40] "GET /static/css/article_icomoon.css HTTP/1.1" 200 25225
+[28/Jan/2018 02:49:40] "GET /static/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[28/Jan/2018 02:49:40] "GET /static/css/article_style.css HTTP/1.1" 200 18898
+[28/Jan/2018 02:49:40] "GET /static/css/article_animate.css HTTP/1.1" 200 73008
+[28/Jan/2018 02:49:40] "GET /static/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[28/Jan/2018 02:49:40] "GET /static/favicon.ico HTTP/1.1" 200 9662
+[28/Jan/2018 02:49:41] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[28/Jan/2018 02:49:42] "GET /static/img/loader.gif HTTP/1.1" 200 48068
+[28/Jan/2018 02:49:42] "GET /static/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 102868
+[28/Jan/2018 02:49:42] "GET /static/img/image_1.jpg HTTP/1.1" 200 116913
+[28/Jan/2018 02:49:45] "GET /static/css/style.css.map HTTP/1.1" 200 13381
+[28/Jan/2018 02:49:46] "GET /static/css/bootstrap.css.map HTTP/1.1" 200 76082
+[28/Jan/2018 02:50:39] "GET /articles HTTP/1.1" 200 2930
+[28/Jan/2018 02:50:39] "GET /articles HTTP/1.1" 200 2930
+[28/Jan/2018 02:50:39] "GET /static/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[28/Jan/2018 02:50:39] "GET /static/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[28/Jan/2018 02:50:39] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[28/Jan/2018 02:50:39] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[28/Jan/2018 02:50:40] "GET /static/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[28/Jan/2018 02:50:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[28/Jan/2018 02:50:40] "GET /static/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[28/Jan/2018 02:50:40] "GET /static/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[28/Jan/2018 02:50:40] "GET /static/js/jquery.stellar.min.js HTTP/1.1" 200 12597
+[28/Jan/2018 02:50:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[28/Jan/2018 02:50:40] "GET /static/js/main.js HTTP/1.1" 200 246
+[28/Jan/2018 02:50:41] "GET /static/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[28/Jan/2018 02:50:41] "GET /static/js/jquery.stellar.min.js HTTP/1.1" 200 12597
+[28/Jan/2018 02:50:41] "GET /static/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 102868
+[28/Jan/2018 02:50:41] "GET /static/js/main.js HTTP/1.1" 200 246
+[28/Jan/2018 02:50:45] "GET /static/css/bootstrap.css.map HTTP/1.1" 200 76082
+[28/Jan/2018 02:51:20] "GET /admin/blog HTTP/1.1" 301 0
+[28/Jan/2018 02:51:20] "GET /admin/blog HTTP/1.1" 301 0
+[28/Jan/2018 02:51:20] "GET /admin/blog/ HTTP/1.1" 302 0
+[28/Jan/2018 02:51:21] "GET /admin/blog/ HTTP/1.1" 302 0
+[28/Jan/2018 02:51:21] "GET /admin/login/?next=/admin/blog/ HTTP/1.1" 200 1863
+[28/Jan/2018 02:51:21] "GET /admin/blog/article HTTP/1.1" 301 0
+[28/Jan/2018 02:51:21] "GET /admin/login/?next=/admin/blog/ HTTP/1.1" 200 1863
+[28/Jan/2018 02:51:22] "GET /admin/blog/article/ HTTP/1.1" 302 0
+[28/Jan/2018 02:51:22] "GET /admin/login/?next=/admin/blog/article/ HTTP/1.1" 200 1879
+[28/Jan/2018 02:51:27] "GET /admin/blog/article/add HTTP/1.1" 301 0
+[28/Jan/2018 02:51:27] "GET /admin/blog/article/add/ HTTP/1.1" 302 0
+[28/Jan/2018 02:51:28] "GET /admin/login/?next=/admin/blog/article/add/ HTTP/1.1" 200 1887
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 28, 2018 - 02:26:33
+Django version 2.0.1, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+---- 0
+-- [None]
+---- 0
+-- [None]
+---- 正要获取list
+---- 获取article列表失败  ---
+--- Can't convert 'int' object to str implicitly
+---- 正要获取list
+---- 获取article列表失败  ---
+--- Can't convert 'int' object to str implicitly
+---- 正要获取list
+---- 获取article列表失败  ---
+--- Can't convert 'int' object to str implicitly
+[28/Jan/2018 02:52:04] "GET /admin/blog/article/add/ HTTP/1.1" 200 5529
+[28/Jan/2018 02:52:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7678
+[28/Jan/2018 02:52:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:04] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[28/Jan/2018 02:52:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[28/Jan/2018 02:52:16] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[28/Jan/2018 02:53:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[28/Jan/2018 02:53:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[28/Jan/2018 02:53:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.OperationalError: (1366, "Incorrect string value: '\\xE6\\x96\\x87\\xE7\\xAB\\xA0...' for column 'title' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 574, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1553, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1450, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1490, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1026, in save_model
+    obj.save()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1281, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xE6\\x96\\x87\\xE7\\xAB\\xA0...' for column 'title' at row 1")
+[28/Jan/2018 03:18:38] "POST /admin/blog/article/add/ HTTP/1.1" 500 387653
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/code/python/1-django/mysite/blog/views.py", line 26, in index
+    print('---- ' + str(len(articles)))
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1062, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
+[28/Jan/2018 03:30:17] "GET / HTTP/1.1" 500 178058
+[28/Jan/2018 03:44:22] "GET /admin/blog/article/add/ HTTP/1.1" 200 5529
+Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.OperationalError: (1366, "Incorrect string value: '\\xE6\\x96\\x87\\xE7\\xAB\\xA0...' for column 'title' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 574, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1553, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1450, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1490, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py", line 1026, in save_model
+    obj.save()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1281, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/cursors.py", line 374, in _do_query
+    db.query(q)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/MySQLdb/connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xE6\\x96\\x87\\xE7\\xAB\\xA0...' for column 'title' at row 1")
+[28/Jan/2018 03:44:26] "POST /admin/blog/article/add/ HTTP/1.1" 500 387653
+[28/Jan/2018 03:44:28] "GET /admin/blog/article/add/ HTTP/1.1" 200 5529

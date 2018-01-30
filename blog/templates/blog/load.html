@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+				<title>Tonador</title>
+				<style type="text/css" media="screen">
+* {
+		padding:0;
+		margin:0;
+		font-size: 20px;
+}
+	img{
+			width: 100%;
+	}
+	input {
+			width: 100px;
+	}
+	#all{
+			position: fixed;
+			/*background-color: yellow;*/
+			/*opacity: 0.05;*/
+			height: 100%;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			z-index: 990;
+	}
+	#input{
+			position:fixed;
+			opacity:0.5;
+			z-index:999;
+	}
+	.change{
+			/*position: fixed;*/
+			display: inline-block;
+			background-color: #f2f2f2;
+			width: 40%;
+			height: 100%;
+			opacity: 0.05;
+			z-index: 995;
+			margin:10px;
+			margin-top:0;
+			padding-top:0;
+	}
+	#com{
+			height:60px;
+			width:70px;
+			border-radius: 30px;
+			background-color: #ff704d;
+	}
+				</style>
+		</head>
+		<body>
+				<div id='input'>
+						room:<input type="text" value='160803' id='room'>
+						page:<input type="text" value='0' id='page'>
+						` ` ` ` ` ` ` `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` <button id='com'>comfire</button>
+				</div>
+				<div id='all'>
+						<div class="change" id='pre'></div>
+						<div class="change" id='next'></div>
+				</div>
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+		</body>
+		<script src='/static/js/jquery-3.2.1.js'></script>
+		<script type="text/javascript" charset="utf-8" async defer>
+				$(function(){
+						var room = $('#room');
+						var page = $('#page');
+						var com = $('#com');
+						var imgs = $('img');
+
+						$(window).scroll(function () {
+								//获取滚动条距离顶部高度
+								var scrollTop = $(window).scrollTop();
+								//滚动条距离顶部高度为300的时候出现图标
+								scrollTop > 300 ? $("#all").fadeIn(200).css("display","block") : $("#all").fadeOut(200);
+						});
+						$('#next').click(function(e){
+								//返回顶部
+								$('html,body').animate({ scrollTop:0});
+								for(var i = 0; i < imgs.length; i++){
+										url='http://wu.wuyude.com/pic/' + room.val() + '/p-' + (parseInt(page.val())+i +21) + '.jpg';
+										imgs[i].src = url;
+								}
+								page.val(parseInt(page.val()) + 20);
+						});
+						$('#pre').click(function(){
+								for(var i = 0; i < imgs.length; i++){
+										url='http://wu.wuyude.com/pic/' + room.val() + '/p-' + (parseInt(page.val())+i -20) + '.jpg';
+										imgs[i].src = url;
+								}
+								page.val(parseInt(page.val()) - 20);
+						});
+				});
+$(function(){
+		var room = $('#room');
+		var page = $('#page');
+		var com = $('#com');
+		var imgs = $('img');
+		$('#com').click(function(){
+				for(var i = 0; i < imgs.length; i++){
+						url='http://wu.wuyude.com/pic/' + room.val() + '/p-' + (parseInt(page.val())+i +1) + '.jpg';
+						imgs[i].src = url;
+				}
+				//page.val(0);
+		});
+});
+		</script>
+</html>

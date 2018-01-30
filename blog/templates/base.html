@@ -1,0 +1,25 @@
+{% load il8n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% spaceless %}
+<?xml version ="1.0" encoding=:"UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml/DTD/xhtml-strict.dtd">
+<html xmlns="http://w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Ricardo's {% block title %}{% endblock %}</title>
+        {% block head_link %}{% endblock %}
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        {% block styles %}{% endblock %}
+
+        <script type="text/javascript" src = "/static/js/jquery-3.3.1.min.js"></script>
+        {% block scripts %}{% endblock %}
+    </head>
+    <body>
+
+    </body>
+</html>
+{% endspaceless %}

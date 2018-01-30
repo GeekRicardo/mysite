@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Story &mdash; Conquer code</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="publisher" href="https://plus.google.com/u/1/116881875920799118774">
+	<meta name="keywords" content="Ricardo Geek,博客， 技术经验，常用小工具">
+    <meta name="description" content="Ricardo Geek's Programming Road | Ricardo的编程之旅 | Ricardo常用的小工具 | Ricardo的图片文字识别 | Ricardo的在线图片压缩">
+    <meta name="author" content="Ricardo Geek">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+
+	
+
+  	<!-- Facebook and Twitter integration 
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />-->
+
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="/static/css/article_animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="/static/css/article_icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="/static/css/article_style.css">
+
+	<!-- Modernizr JS -->
+	<script src="/static/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<!--div class="fh5co-loader"></div-->
+
+	<div id="page">
+		<div id="fh5co-aside" style="background-image: url(/static/img/image_1.jpg)">
+			<div class="overlay"></div>
+			<nav role="navigation">
+				<ul>
+					<li><a href="/index"><i class="icon-home"></i></a></li>
+				</ul>
+			</nav>
+			<div class="featured">
+				<span>Duo</span>
+				<h2>I'm Ricardo Geek </a></h2>
+			</div>
+		</div>
+		<div id="fh5co-main-content">
+			<div class="fh5co-post"> 
+				{% for article in articles %}
+				<div class="fh5co-entry padding">
+						<img src="{{ article.img_url }}" alt="">
+					<div>
+							<span class="fh5co-post-date">{{ article.change_time }}</span>
+						<h2><a href="/blog/article/{{ article.id }}">{{ article.title }}</a></h2>
+					</div>
+				</div>
+				{% endfor %}
+
+
+				<!-- footer -->
+				<footer>
+					<div>
+					&copy; 2018 by Ricardo. All Rights Reserved.
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="/static/js/jquery-3.3.1.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="/static/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="/static/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="/static/js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="/static/js/jquery.stellar.min.js"></script>
+	<!-- Main -->
+	<script src="/static/js/main.js"></script>
+
+	</body>
+</html>
+
+
